@@ -27,5 +27,5 @@ production:
   <<: *default
   database: toy_app_production
   username: toy_app
-  password: <%= ENV['PICTWEET_DATABASE_PASSWORD'] %>
+  password: <%= ENV['TOY_APP_DATABASE_PASSWORD'] %>
 
